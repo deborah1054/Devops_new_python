@@ -15,7 +15,7 @@ pipeline {
         stage('1. Checkout Code') {
             steps {
                 // Get all the files (app.py, Dockerfile, main.tf, etc.)
-                git 'https://github.com/your-username/your-python-project.git'
+                git 'https://github.com/deborah1054/Devops_new_python.git'
             }
         }
 
